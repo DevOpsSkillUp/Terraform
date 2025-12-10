@@ -51,7 +51,7 @@ variable "sg_tags" {
 
 /* 
 1. command line --> -var "<var-name>=<var-value>"
-2. tfvars
+2. tfvars file data --> terraform.tfvars or <filename>.tfvars
 3. env var using 
     #export TF_VAR_<var-name>=<var-value> 
     #unset TF_VAR_<var-name>
