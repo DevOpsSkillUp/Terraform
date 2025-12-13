@@ -8,9 +8,9 @@ variable "instances" {
 }
 
 variable "domain_name" {
-    default = "daws82s.online"
+    default = "medurubharath.online"
 }
 
 variable "zone_id" {
-    default = "Z021448929NMXW4P65UQE"
+    default = "Z02863883CNWVZTCCQR60"
 }
