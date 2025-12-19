@@ -25,7 +25,7 @@ Terraform Commands
 | `terraform apply`                 | Applies the changes to your infrastructure.                                       |
 | `terraform apply -auto-approve`   | Applies the changes without prompting for user approval.                          |
 | `terraform destroy`               | Destroys all the resources defined in the configuration.                          |
-| `terraform destroy -auto-approve`     | Destroys resources without requiring user confirmation.                           |
+| `terraform destroy -auto-approve` | Destroys resources without requiring user confirmation.                           |
 | `terraform output`                | Displays output values defined in the Terraform configuration.                    |
 | `terraform validate`              | Validates the syntax and internal consistency of the configuration files.         |
 | `terraform fmt`                   | Formats the configuration files to a standardized style.                          |
