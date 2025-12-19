@@ -1,5 +1,6 @@
 module "vpc" {
-    source = "../custom_templates/aws_vpc"
+    #source = "../custom_templates/aws_vpc"
+    source = "git::https://github.com/DevOpsSkillUp/Terraform.git//modules/custom_templates/aws_vpc?ref=main"
     project_name = var.project_name
     environment = var.environment
     vpc_cidr = var.vpc_cidr
