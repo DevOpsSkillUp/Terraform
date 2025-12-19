@@ -1,5 +1,6 @@
 module "mysql_sg" {
-    source = "../custom_templates/aws_sg"
+    #source = "../custom_templates/aws_sg"
+    source = "git::https://github.com/DevOpsSkillUp/Terraform.git//modules/custom_templates/aws_sg?ref=main"
     project_name = var.project_name
     environment = var.environment
     sg_name = "mysql"
